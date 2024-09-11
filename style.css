@@ -1,0 +1,68 @@
+/* p of content - font here */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+/* h2 of content - font here */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* span of capsules - font here */
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{padding: 0;
+    margin: 0;
+   }
+   
+   
+   body {
+    background-color: #EDF6F9;
+    display: flex;
+    justify-content: center;
+
+}
+.card {height: 470px;
+       width: 288px;
+       background-color: #c7b768;
+       border-radius: 8px;
+       margin: 20px;
+
+}
+
+#image {padding: 7px 7px 8px 8px;
+           border-radius: 12px;
+    
+}
+
+/* capsules */
+.capsules {padding-left: 10px;
+           font-size: 13px;}
+.capsules span{color: rgb(22, 22, 21);
+              border: 2px solid rgba(182, 57, 103, 0.74);
+              border-radius: 14px;
+              padding: 0 6px;
+            }
+
+ /* content */
+.content {padding: 13px;
+              color: rgb(33, 86, 184);}
+.content h2 {  font-family: "Oswald", sans-serif;
+              }
+.content p {font-family: "Playpen Sans", cursive;
+           font-size: 13px;
+           color: rgb(44, 0, 73);
+}
+
+/* button */
+#button {text-align: center;
+   }
+#button button {color: rgb(22, 11, 16);
+   background-color: rgb(216, 110, 221);
+   margin: 12px;
+   padding: 8px;
+   font-size: 12px;
+   border: none;
+   border-radius: 15px;
+   cursor: pointer;      
+}
+
+#button button:hover {color: rgb(150, 9, 63);
+    background-color: rgb(95, 123, 201);
+
+}
